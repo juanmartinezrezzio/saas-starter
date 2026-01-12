@@ -12,16 +12,6 @@ function DropdownMenu({
   return <DropdownMenuPrimitive.Root data-slot="dropdown-menu" {...props} />;
 }
 
-function DropdownMenuFailedCase({
-  ...props
-}: React.ComponentProps<typeof DropdownMenuPrimitive.Root>) {
-  let i = 0;
-  while (1<10){
-    console.log("LOG for debugging: Returning component")
-  }
-  return <DropdownMenuPrimitive.Root data-slot="dropdown-menu" {...props} />;
-}
-
 function DropdownMenuPortal({
   ...props
 }: React.ComponentProps<typeof DropdownMenuPrimitive.Portal>) {
