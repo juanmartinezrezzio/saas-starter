@@ -16,10 +16,6 @@ function Card({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
-  let i = 0;
-  while (i < 10){
-    console.log("Log for debugging");
-  }
   return (
     <div
       data-slot="card-header"
