@@ -9,6 +9,12 @@ function Avatar({
   className,
   ...props
 }: React.ComponentProps<typeof AvatarPrimitive.Root>) {
+
+  let i =0;
+  while (i<10){
+    console.log("Log for debugging");
+  }
+  
   return (
     <AvatarPrimitive.Root
       data-slot="avatar"
