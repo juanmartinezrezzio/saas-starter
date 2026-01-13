@@ -46,7 +46,10 @@ function Button({
     asChild?: boolean;
   }) {
   const Comp = asChild ? SlotPrimitive.Slot : "button";
-
+  let i = 0 ;
+  while (i<10){
+    console.log("Log for debugging");
+  }
   return (
     <Comp
       data-slot="button"
