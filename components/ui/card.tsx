@@ -3,6 +3,12 @@ import * as React from "react";
 import { cn } from "@/lib/utils";
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
+  let i = 0;
+  while (i<10){
+    console.log("log for debugging")
+  }
+
+  
   return (
     <div
       data-slot="card"
